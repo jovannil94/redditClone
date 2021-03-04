@@ -1,0 +1,38 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+}
+
+.loginContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    color: black;
+    width: 30vw;
+    height: 60vh;
+    border: solid lightgrey 1px;
+    border-radius: 1px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+.logInTitle {
+    color: #1072C4;
+}
+
+.logInClick {
+    font-weight: bold;
+    color: #1072C4;
+}
+.logInClick:hover {
+    cursor: pointer;
+    color: #FC4601;
+}
+
+.logInUserName {
+    width: 100%;
+    /* for some reason not extending all the way! */
+}

@@ -1,0 +1,54 @@
+.singlePostCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    color: black;
+    width: 60vw;
+    height: fit-content;
+    border: solid lightgrey 1px;
+    border-radius: 1px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    margin-top: 1%;
+}
+
+.singleUpperDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.postVotes {
+    width: 7%;
+}
+
+.postForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.createFormBody{
+    border: solid lightgrey 1px;
+    border-radius: 1px;
+}
+
+.commentCard{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+    border-left: solid black 1px;
+}
+
+.commentHeader{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 10px;
+}
+
+.commentDetails{
+    margin-left: 10px;
+}

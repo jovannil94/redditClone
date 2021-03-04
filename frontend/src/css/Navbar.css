@@ -1,0 +1,20 @@
+.Navbar{
+    background-color: #1B1B1C;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo {
+    height: 35px;
+    width: auto;
+}
+
+.Logo:hover{
+    cursor: pointer;
+}
+
+.navBarSearch {
+    display: flex;
+    flex-direction: row;
+}
